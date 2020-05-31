@@ -1,0 +1,144 @@
+:root {
+	--surface: #121212;
+	--primary: #66FF66;
+	--primaryVariant: #1976d2;
+	--secondary: #FF66FF;
+	--card: #212121;
+}
+
+.background{
+	background-color: var(--surface);
+}
+
+div.container1 {
+	/*border: 3px solid green;*/
+	position: relative;
+	text-align: center;
+	height: 120px;
+	margin: 16px 16px 0px 16px;
+	/*top: 20px;*/
+}
+
+div.container1 h1 {
+	color: var(--primary);
+	font-size: 56px;
+	position: relative;
+	margin: auto;
+}
+
+div.container1 h2 {
+	color: var(--primary);
+	font-size: 28px;
+	position: relative;
+	margin: auto;
+}
+
+div.container2 {
+	/*border: 3px solid green;*/
+	position: relative;
+	text-align: center;
+	height: 120px;
+	margin-left: 120px;
+	margin-right: 120px;
+	color: var(--primary);
+	/*top: 20px;*/
+}
+
+div.container2 input {
+	background-color: var(--card);
+	position: relative;
+	text-align: center;
+	/*height: 32px;*/
+	color: var(--primary);
+	border: none;
+ 	border-bottom: 2px solid var(--primary);
+ 	top: 40px;
+ 	font-size: 20px;
+ 	padding: 12px;
+}
+
+div.container2 input:focus {
+	background-color: var(--card);
+	color: var(--primary);
+	outline: none !important;
+}
+
+div.container2 select {
+	background-color: var(--card);
+	position: relative;
+	text-align: center;
+	/*height: 32px;*/
+	color: var(--primary);
+	border: none;
+ 	border-bottom: 2px solid var(--primary);
+ 	top: 40px;
+ 	font-size: 20px;
+ 	padding: 12px;
+}
+
+div.container2 select:focus {
+	background-color: var(--card);
+	color: var(--primary);
+	outline: none !important;
+}
+
+div.container2 input[type=number]::-webkit-inner-spin-button, 
+div.container2 input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+}
+
+div.container2 table {
+	color: var(--primary);
+	font-size: 20px;
+	position: relative;
+	margin: auto;
+ 	border-collapse: collapse;
+}
+
+div.container2 table th,td {
+  border: 1px dashed var(--primary);
+  background-color: var(--card);
+  padding: 8px;
+}
+
+div.container3 {
+	/*border: 3px solid green;*/
+	position: relative;
+	text-align: center;
+	height: 40px;
+	margin-top: 40px;
+	/*margin: 20px;*/
+	/*top: 20px;*/
+}
+
+div.container3 h2 {
+	color: var(--primary);
+	font-size: 20px;
+	position: relative;
+	margin: auto;
+}
+
+div.container4 {
+	/*border: 3px solid green;*/
+	position: relative;
+	text-align: center;
+	height: 60px;
+	margin-left: 120px;
+	margin-right: 120px;
+	color: var(--primary);
+	/*top: 20px;*/
+}
+
+div.container4 button {
+	background-color: var(--primary);
+	border: none;
+	color: var(--surface);
+	padding: 16px 28px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	outline: 0;
+}
