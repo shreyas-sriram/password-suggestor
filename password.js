@@ -24,7 +24,7 @@ const WORDLIST = "abacus abide ablaze able abroad absurd accent aching acid acor
 
 		// Get a random word from the wordlist
 		function getRandomWord() {
-			var random_index = Math.floor(Math.random() * (WORDS_LIST.length-1)) + 1;
+			var random_index = Math.floor(Math.random() * (WORDS_LIST.length));
 			var word = WORDS_LIST[random_index];
 			return word
 		}
@@ -61,7 +61,7 @@ const WORDLIST = "abacus abide ablaze able abroad absurd accent aching acid acor
 				
 				if (all_positions.length > 0) {
 					if (all_positions.length > 1)
-						var random_index = Math.floor(Math.random() * (all_positions.length-1)) + 1; // find random position to replace from all positions
+						var random_index = Math.floor(Math.random() * (all_positions.length)); // find random position to replace from all positions
 					else
 						var random_index = 0;
 					// console.log("All positions: " + all_positions);
@@ -78,7 +78,7 @@ const WORDLIST = "abacus abide ablaze able abroad absurd accent aching acid acor
 		// Include uppercase character
 		function makeUpperCase(password) {
 			while (1) {
-				random_index = Math.floor(Math.random() * (password.length-1)) + 1;
+				random_index = Math.floor(Math.random() * (password.length));
 				if(password[random_index] == password[random_index].toLowerCase()) {
 					password = password.slice(0,random_index) + password[random_index].toUpperCase() + password.slice(random_index+1,password.length);
 					break;
@@ -121,9 +121,9 @@ const WORDLIST = "abacus abide ablaze able abroad absurd accent aching acid acor
 			// Find all permutations of the 4 words and choose and random permutation
 			var permute_list = getPermutations(words);
 			
-			var permute_index = Math.floor(Math.random() * (permute_list.length-1)) + 1;
+			var permute_index = Math.floor(Math.random() * (permute_list.length));
 
-			separator_index = Math.floor(Math.random() * (separator.length-1)) + 1;
+			separator_index = Math.floor(Math.random() * (separator.length));
 			passwords.push((permute_list[permute_index]).join(separator[separator_index]));
 
 			// Include upper case
