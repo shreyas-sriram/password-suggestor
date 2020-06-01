@@ -14,9 +14,8 @@ div.container1 {
 	/*border: 3px solid green;*/
 	position: relative;
 	text-align: center;
-	height: 120px;
+	height: auto;
 	margin: 16px 16px 0px 16px;
-	/*top: 20px;*/
 }
 
 div.container1 h1 {
@@ -37,22 +36,19 @@ div.container2 {
 	/*border: 3px solid green;*/
 	position: relative;
 	text-align: center;
-	height: 120px;
-	margin-left: 120px;
-	margin-right: 120px;
+	height: auto;
+	margin-top: 40px;
 	color: var(--primary);
-	/*top: 20px;*/
 }
 
 div.container2 input {
 	background-color: var(--card);
 	position: relative;
 	text-align: center;
-	/*height: 32px;*/
 	color: var(--primary);
 	border: none;
  	border-bottom: 2px solid var(--primary);
- 	top: 40px;
+
  	font-size: 20px;
  	padding: 12px;
 }
@@ -67,11 +63,10 @@ div.container2 select {
 	background-color: var(--card);
 	position: relative;
 	text-align: center;
-	/*height: 32px;*/
 	color: var(--primary);
 	border: none;
  	border-bottom: 2px solid var(--primary);
- 	top: 40px;
+
  	font-size: 20px;
  	padding: 12px;
 }
@@ -106,10 +101,8 @@ div.container3 {
 	/*border: 3px solid green;*/
 	position: relative;
 	text-align: center;
-	height: 40px;
+	height: auto;
 	margin-top: 40px;
-	/*margin: 20px;*/
-	/*top: 20px;*/
 }
 
 div.container3 h2 {
@@ -123,11 +116,11 @@ div.container4 {
 	/*border: 3px solid green;*/
 	position: relative;
 	text-align: center;
-	height: 60px;
+	height: auto;
 	margin-left: 120px;
 	margin-right: 120px;
 	color: var(--primary);
-	/*top: 20px;*/
+	margin-top: 20px;
 }
 
 div.container4 button {
