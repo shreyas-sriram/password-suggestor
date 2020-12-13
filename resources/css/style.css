@@ -20,14 +20,14 @@ div.container1 {
 
 div.container1 h1 {
 	color: var(--primary);
-	font-size: 56px;
+	font-size: 40px;
 	position: relative;
 	margin: auto;
 }
 
 div.container1 h2 {
 	color: var(--primary);
-	font-size: 28px;
+	font-size: 24px;
 	position: relative;
 	margin: auto;
 }
@@ -134,4 +134,8 @@ div.container4 button {
 	border-radius: 4px;
 	cursor: pointer;
 	outline: 0;
+}
+
+.fa_custom {
+  color: var(--primary);
 }
