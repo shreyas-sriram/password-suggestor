@@ -7,7 +7,7 @@ Example : **boat-plant-lift-trick** is better to remember than **[>oh187no;'0+**
 
 **Note : Passwords are not saved anywhere, the entire code runs in the browser. Turn off the internet connection before trying it out!**:v:
 
-# Usage
+### Usage
 * The generated suggestions are made of 4 words separated by a separator.
 	* Two words are entered by the user.
 	* The third word is chosen at random from the list.
@@ -28,7 +28,7 @@ Example : **boat-plant-lift-trick** is better to remember than **[>oh187no;'0+**
 		* heLlo-npng-world-it3m
 
 
-# Acknowledgements
+### Acknowledgements
 List of words from [EFF Long Wordlist](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt).
 
 List of proverbs from [1000 ENGLISH PROVERBS](https://suratiundhiyu.files.wordpress.com/2011/02/1000-english-proverbs.pdf).
