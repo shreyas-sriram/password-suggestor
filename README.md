@@ -7,7 +7,7 @@ Example : **boat-plant-lift-trick** is better to remember than **[>oh187no;'0+**
 
 **Note : Passwords are not saved anywhere, the entire code runs in the browser. Turn off the internet connection before trying it out!**:v:
 
-### Usage
+## Usage
 * The generated suggestions are made of 4 words separated by a separator.
 	* Two words are entered by the user.
 	* The third word is chosen at random from the list.
